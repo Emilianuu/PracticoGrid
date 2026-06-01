@@ -1,11 +1,11 @@
-.contenedor{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(6, 100px);
-    background-color: lightblue;
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, 100px);
+  background-color: lightblue;
 }
 
-.caja{
-    background-color: lightsalmon;
-    border: 2px solid black;
+.caja {
+  background-color: lightsalmon;
+  border: 2px solid black;
 }

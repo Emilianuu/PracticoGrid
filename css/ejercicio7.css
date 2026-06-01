@@ -1,17 +1,17 @@
-.contenedor{
-    display: grid;
-    background-color: lightblue;
-    grid-template-columns: repeat(2, 1fr);
-    width: 600px;
-    height: 400px;
-    place-content: center;
-    place-items: center;
+.contenedor {
+  display: grid;
+  background-color: lightblue;
+  grid-template-columns: repeat(2, 1fr);
+  width: 600px;
+  height: 400px;
+  place-content: center;
+  place-items: center;
 }
 
-.caja{
-    display: grid;
-    background-color: lightsalmon;
-    border: 2px solid black;
-    height: 100px;
-    width: 100px;
+.caja {
+  display: grid;
+  background-color: lightsalmon;
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
 }

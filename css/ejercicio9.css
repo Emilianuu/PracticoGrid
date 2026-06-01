@@ -1,18 +1,18 @@
-.contenedor{
-    display: grid;
-    background-color: lightblue;
-    grid-template-columns: repeat(3, 1fr);
+.contenedor {
+  display: grid;
+  background-color: lightblue;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.caja{
-    display: grid;
-    background-color: lightsalmon;
-    border: 2px solid black;
+.caja {
+  display: grid;
+  background-color: lightsalmon;
+  border: 2px solid black;
 }
 
-.caja.alta{
-    display: grid;
-    background-color: lightgreen;
-    border: 2px solid black;
-    grid-row: span 2;
+.caja.alta {
+  display: grid;
+  background-color: lightgreen;
+  border: 2px solid black;
+  grid-row: span 2;
 }
