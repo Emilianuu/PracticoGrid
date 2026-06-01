@@ -1,0 +1,38 @@
+.contenedor {
+  display: grid;
+  background-color: lightblue;
+  grid-template-columns: repeat(3, 1fr);
+
+  grid-template-areas:
+    "cabecera cabecera cabecera"
+    "sidebar principal principal"
+    "pie pie pie";
+}
+
+.cabecera {
+  display: grid;
+  background-color: lightsalmon;
+  border: 2px solid black;
+  grid-area: cabecera;
+}
+
+.sidebar {
+  display: grid;
+  background-color: greenyellow;
+  border: 2px solid black;
+  grid-area: sidebar;
+}
+
+.principal {
+  display: grid;
+  background-color: white;
+  border: 2px solid black;
+  grid-area: principal;
+}
+
+.pie {
+  display: grid;
+  background-color: lightgray;
+  border: 2px solid black;
+  grid-area: pie;
+}
