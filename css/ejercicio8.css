@@ -1,0 +1,11 @@
+.contenedor{
+    display: grid;
+    background-color: lightblue;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.caja{
+    display: grid;
+    background-color: lightsalmon;
+    border: 2px solid black;
+}
