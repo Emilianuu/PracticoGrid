@@ -1,7 +1,7 @@
 .contenedor{
     display: grid;
     background-color: lightblue;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .caja{
@@ -10,9 +10,9 @@
     border: 2px solid black;
 }
 
-.caja.destacada{
+.caja.alta{
     display: grid;
     background-color: lightgreen;
     border: 2px solid black;
-    grid-column: span 4;
+    grid-row: span 2;
 }
