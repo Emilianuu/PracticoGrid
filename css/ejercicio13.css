@@ -1,0 +1,19 @@
+.contenedor.a {
+  display: grid;
+  background-color: lightblue;
+  width: 600px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+
+.contenedor.b {
+  display: grid;
+  background-color: lightblue;
+  width: 600px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.caja {
+  display: grid;
+  background-color: lightsalmon;
+  border: 2px solid black;
+}
