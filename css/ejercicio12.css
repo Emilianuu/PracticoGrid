@@ -1,0 +1,11 @@
+.contenedor {
+  display: grid;
+  background-color: lightblue;
+  grid-auto-rows: 100px;
+}
+
+.caja {
+  display: grid;
+  background-color: lightsalmon;
+  border: 2px solid black;
+}

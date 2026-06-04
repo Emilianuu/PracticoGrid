@@ -25,6 +25,11 @@
 }
 
 .caja.c3{
-    justify-self: start;
+    justify-self: end;
+    align-self: end;
+}
+
+.caja.c4{
+    justify-self: center;
     align-self: end;
 }
