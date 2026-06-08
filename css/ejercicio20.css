@@ -1,0 +1,39 @@
+.precios {
+  display: grid;
+  background-color: lightblue;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.plan {
+  display: grid;
+  background-color: lightsalmon;
+  border: 2px solid black;
+  grid-template-rows: auto auto 1fr auto;
+}
+
+.nombre{
+    display: grid;
+    background-color: rgb(255, 10, 10);
+    border: 2px solid black;
+}
+
+.precio{
+    display: grid;
+    background-color: rgb(236, 244, 79);
+    border: 2px solid black;
+}
+
+.features{
+    display: grid;
+    background-color: rgb(10, 255, 18);
+    border: 2px solid black;
+    list-style: none;
+}
+
+.btn{
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+}
