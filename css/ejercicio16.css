@@ -1,0 +1,58 @@
+.dashboard {
+  display: grid;
+  background-color: lightblue;
+  grid-template-areas:
+    "head head head head"
+    "side w1 w2 w3"
+    "side grafico grafico grafico"
+    "foot foot foot foot";
+}
+
+.head {
+  display: grid;
+  background-color: lightsalmon;
+  border: 2px solid black;
+  grid-area: head;
+}
+
+.side {
+  display: grid;
+  background-color: rgb(56, 255, 93);
+  border: 2px solid black;
+  grid-area: side;
+}
+
+.w1 {
+  display: grid;
+  background-color: rgb(230, 94, 40);
+  border: 2px solid black;
+  grid-area: w1;
+}
+
+.w2 {
+  display: grid;
+  background-color: rgb(230, 227, 35);
+  border: 2px solid black;
+  grid-area: w2;
+}
+
+.w3 {
+  display: grid;
+  background-color: rgb(36, 226, 247);
+  border: 2px solid black;
+  grid-area: w3;
+}
+
+.grafico {
+  display: grid;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  grid-area: grafico;
+}
+
+.foot {
+  display: grid;
+  background-color: rgb(98, 98, 98);
+  border: 2px solid black;
+  grid-area: foot;
+}
