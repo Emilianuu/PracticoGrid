@@ -1,0 +1,19 @@
+.calendario {
+  display: grid;
+  background-color: lightblue;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: auto repeat(5, 1fr);
+}
+
+.dia-titulo {
+  display: grid;
+  background-color: lightsalmon;
+  border: 2px solid black;
+}
+
+.dia {
+  display: grid;
+  background-color: rgb(10, 255, 18);
+  border: 2px solid black;
+  aspect-ratio: 1;
+}

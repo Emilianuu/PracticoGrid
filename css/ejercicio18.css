@@ -34,6 +34,7 @@
   display: grid;
   background-color: lightsalmon;
   border: 2px solid black;
+  grid-template-columns: 70% 30%;
 }
 
 .post {
@@ -52,4 +53,5 @@
   display: grid;
   background-color: rgb(245, 55, 239);
   border: 2px solid black;
+  grid-template-columns: repeat(3, 1fr);
 }
